@@ -1,0 +1,24 @@
+title: Head Up Studio
+description: Thoughtful digital products that bring people together. Home of Head Up.
+url: "https://headupstudio.github.io"
+baseurl: ""
+lang: en
+timezone: Europe/Madrid
+
+theme: minima
+github_username: headupstudio
+header_pages:
+  - index.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+whitelist:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
